@@ -1,0 +1,44 @@
+.app-infos {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  .app-infos-prog, .app-infos-billetterie {
+    position: relative;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+
+    .app-infos-banner {
+      position: relative;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      margin-top: -10%;
+      margin-right: 7%;
+      margin-left: 7%;
+
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 2.6em;
+      font-weight: bold;
+      text-align: center;
+      width: 80%;
+    }
+
+    .app-infos-prog-link {
+      background-color: #f21031;
+      color: #ffe1bf;
+    }
+
+    .app-infos-billetterie-link {
+      background-color: #ffe1bf;
+      color: #f21031;
+    }
+  }
+}

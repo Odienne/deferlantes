@@ -1,0 +1,16 @@
+.app-social-links {
+  background-color: #f21031;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 3px 10px;
+  }
+}
